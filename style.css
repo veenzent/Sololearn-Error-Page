@@ -42,6 +42,11 @@
     padding: 20px;
 }
 
+.logo {
+    display: flex;
+
+}
+
 .logo a {
     display: flex;
     justify-content: flex-start;
@@ -58,7 +63,7 @@
     display: flex;
     justify-content: flex-end;
     font-size: 30px;
-    justify-content: space-between;
+    align-items: center;
 }
 
 .menu p{
@@ -84,8 +89,7 @@
 }
 
 .block-2 img {    
-    /* margin: 0 35%; */
-    padding-left: 35%;
+    margin: 0 35%;
 }
 
 .block-2 p {
@@ -112,7 +116,6 @@ footer {
     margin: auto;
     width: 65%;
     padding: 65px 0;
-    /* border: 1px solid; */
 }
 
 .community, .advanced, .intermediate, .intro {
@@ -163,7 +166,7 @@ footer {
     padding-right: 35px;
     padding-top: 30px;
     padding-bottom: 30px;
-    /* padding: 10px 35px; */
+    padding: 10px 35px;
 }
 
 .navbar {
